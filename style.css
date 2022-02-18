@@ -1,12 +1,11 @@
 /* Gradient background created by referring to https://www.w3schools.com/css/css3_gradients.asp */
 body {
-	background-image: linear-gradient(to right, rgb(191, 226, 240), rgb(168, 229, 240));
+	background-image: linear-gradient(to right, rgb(215, 224, 228), rgb(245, 245, 245));
 }
 /* class for heading1, colours throughout the css are picked from https://www.w3schools.com/colors/colors_names.asp */
 .h1 {
 	margin: 20px;
 	max-width: 100%;
-	border: 5px solid OliveDrab;
 	padding: 5px;
 	text-align: center;
 	/*List of fonts acquired from https://www.w3schools.com/css/css_font.asp and picked Helvetica */
@@ -27,7 +26,7 @@ body {
 /* Learned how to remove the underlines from links from this page https://www.w3schools.com/css/css_link.asp */
 
 a:link, a:focus, a:hover, a:active{
-  color:rgb(225, 97, 65);
+  color:rgb(65, 102, 225);
   text-decoration:none; 
   cursor: pointer;
 }
@@ -152,4 +151,41 @@ a:visited{
 	margin-block-start: 1em;
 	text-indent: .5em !important;
 	line-height: 1.5em;
+}
+.Disclaimer {
+    color: white;
+    flex:60%;
+    font-size: 15px;
+    background-color: #333;
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(3, 3, 3);
+}
+@media (max-width: 600px) {footer {flex-direction:column;
+}}
+p {
+    margin-bottom: 10px;
+}
+.position {
+    flex:40%;
+    padding-left:10%;
+    line-height: 20px;
+    background-color:#333
+}
+@media screen and (max-width: 600px) {
+    .position {
+        padding-left:28%;
+    }
+}
+.image {
+    margin-top: 35px;
+    padding-left:10px;
+    padding-right: 10px;
+    width:2em;
+    height:2em;
+    float:left;
+    background-color:#333;
 }
