@@ -1,6 +1,6 @@
 /* Gradient background created by referring to https://www.w3schools.com/css/css3_gradients.asp */
 body {
-	background-image: linear-gradient(to right, rgb(81, 137, 160), rgb(206, 230, 123));
+	background-image: linear-gradient(to right, rgb(191, 226, 240), rgb(168, 229, 240));
 }
 /* class for heading1, colours throughout the css are picked from https://www.w3schools.com/colors/colors_names.asp */
 .h1 {
@@ -12,6 +12,17 @@ body {
 	/*List of fonts acquired from https://www.w3schools.com/css/css_font.asp and picked Helvetica */
 	font-family: Helvetica, sans-serif;
 	font-size: 2.5em
+}
+
+.center {
+	text-align:center;
+}
+.resume {
+	filter:blur(6px);
+	max-width:100%;
+	max-height: 50em;
+	position:relative;
+	
 }
 /* Learned how to remove the underlines from links from this page https://www.w3schools.com/css/css_link.asp */
 
