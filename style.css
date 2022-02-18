@@ -1,6 +1,6 @@
 /* Gradient background created by referring to https://www.w3schools.com/css/css3_gradients.asp */
 body {
-	background-image: linear-gradient(to right, Burlywood, lightcyan);
+	background-image: linear-gradient(to right, rgb(81, 137, 160), rgb(206, 230, 123));
 }
 /* class for heading1, colours throughout the css are picked from https://www.w3schools.com/colors/colors_names.asp */
 .h1 {
